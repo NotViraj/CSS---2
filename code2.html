@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
-            background-image: radial-gradient(circle, yellow, green, blue, red, orange);
+        #qwerty{
+            background-color: aqua;
             height: 1000px;
             width: 1000px;
+            animation-name: anima;
+            animation-duration: 4s ;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes anima
+        {
+            0%  {background-color: yellow;}
+            25% {background-color: blue;}
+            50% {background-color: green;}
+            75% {background-color: orange;}
+            
         }
     </style>
 </head>
